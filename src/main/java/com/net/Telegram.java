@@ -6,6 +6,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 public class Telegram
 {
    public static void main(String[] args) throws TelegramApiException {
+      System.out.println("Telegram bot is running");
       // Initialize Api Context
       ApiContextInitializer.init();
 
@@ -15,6 +16,7 @@ public class Telegram
       try {
           botsApi.registerBot(new MyAmazingBot());
       } catch (TelegramApiException e) {
+           System.out.println("Main exception");
           e.printStackTrace();
       }
   }
