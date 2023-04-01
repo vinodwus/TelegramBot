@@ -35,6 +35,7 @@ public class MyAmazingBot extends TelegramLongPollingBot {
       public void onUpdateReceived(Update update) {
          //  String tag = "?tag=vinodwus-21";
           // We check if the update has a message and the message has text
+           System.out.println("Update message is received");
           if (update.hasMessage() && update.getMessage().hasText()) {
               // Set variables
               String message_text = update.getMessage().getText();
