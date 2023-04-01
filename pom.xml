@@ -19,6 +19,12 @@
       <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.telegram/telegrambots -->
+<!-- https://mvnrepository.com/artifact/org.telegram/telegrambots -->
+<dependency>
+    <groupId>org.telegram</groupId>
+    <artifactId>telegrambots</artifactId>
+    <version>4.0.0</version>
+</dependency>
 
 
   </dependencies>
